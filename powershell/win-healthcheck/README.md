@@ -69,7 +69,100 @@ This design keeps the script easy to understand, extend, and automate.
 
 ## Usage
 
-### Run the script
+```md
+## How to run Win-HealthCheck locally
+
+Win-HealthCheck is executed directly on the Windows system you want to inspect.
+The script runs locally and collects live system information.
+
+---
+
+### Prerequisites
+- Windows 10 or Windows 11
+- Windows PowerShell
+- The repository downloaded or cloned to your local machine
+
+---
+
+### Step 1: Open PowerShell
+
+Open **Windows PowerShell** (not Command Prompt).
+
+You should see a prompt like:
+```
+
+PS C:\Users\yourname>
+
+````
+
+---
+
+### Step 2: Navigate to the script directory
+
+Use `cd` to move into the directory containing the script:
+
+```powershell
+cd powershell\win-healthcheck
+````
+
+Verify the files:
+
+```powershell
+dir
+```
+
+You should see:
+
+```
+Win-HealthCheck.ps1
+README.md
+```
+
+---
+
+### Step 3: Allow script execution (temporary)
+
+PowerShell blocks scripts by default.
+Allow execution for the current session only:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+This does not change system-wide security settings.
+
+---
+
+### Step 4: Run the script
+
+```powershell
+.\Win-HealthCheck.ps1
+```
+
+The script will immediately output the system health information to the console.
+
+---
+
+### Optional: JSON output (for automation)
+
+```powershell
+.\Win-HealthCheck.ps1 -JsonOut .\health.json
+```
+
+This creates a JSON file in the current directory containing the same data.
+
+---
+
+### Notes
+
+* The script is read-only and safe to run
+* No system changes are performed
+* All data is collected locally from the target system
+
+```
+
+
+```
 
 From the tool directory:
 
