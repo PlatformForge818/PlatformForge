@@ -151,8 +151,6 @@ The script will immediately output the system health information to the console.
 
 This creates a JSON file in the current directory containing the same data.
 
----
-
 ### Notes
 
 * The script is read-only and safe to run
