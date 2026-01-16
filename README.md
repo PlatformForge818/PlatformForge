@@ -27,3 +27,17 @@ All tools are designed to be simple, readable, and automation-friendly.
 ## License
 MIT
 ./license
+
+---
+
+## ✅ Abschnitt: *Running the tools*
+
+```md
+## Running the tools
+
+All tools are executed using relative paths to ensure portability.
+
+From the repository root:
+
+```powershell
+.\powershell\win-healthcheck\Win-HealthCheck.ps1
