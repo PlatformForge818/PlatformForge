@@ -59,6 +59,6 @@ Example:
 .\powershell\win-healthcheck\Win-HealthCheck.ps1
 ```
 ## Tools
-- [Win-HealthCheck](tools/win-healthcheck/index.md)
+- [Win-HealthCheck](docs/tools/win-healthcheck/index.md)
 
 
