@@ -79,3 +79,5 @@ All tools in this repository follow these principles:
 ## License
 
 This project is released under the MIT License.
+Short version (informal but accurate):
+You may use, copy, modify, publish, distribute, sell, or sublicense the software for free. The copyright and permission notice must remain in all copies. The software is provided without any warranty, and the authors are not liable for any damages or claims arising from its use.
