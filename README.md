@@ -11,7 +11,6 @@ All tools are designed to be simple, readable, and automation-friendly.
 
 ## Included Tools
 - Win-HealthCheck – basic Windows system overview
-  cd .\powershell\win-healthcheck\Win-HealthCheck.ps1
 - More tools planned (backup checks, audits, diagnostics)
 
 ## Philosophy
