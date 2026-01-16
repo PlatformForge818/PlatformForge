@@ -138,6 +138,24 @@ This does not change system-wide security settings.
 ```powershell
 .\Win-HealthCheck.ps1
 ```
+## New to v.02:
+### Health status and exit codes
+
+Win-HealthCheck evaluates a `HealthStatus` and returns an exit code for automation:
+
+- `OK` → exit `0`
+- `WARNING` → exit `1`
+- `CRITICAL` → exit `2`
+
+Default thresholds:
+- Disk free: WARNING < 15%, CRITICAL < 10%
+- Uptime: WARNING > 30 days, CRITICAL > 60 days
+- Pending updates → at least WARNING
+- Defender disabled → CRITICAL
+
+### Custom thresholds
+```powershell
+.\Win-HealthCheck.ps1 -WarnDiskFreePct 20 -CritDiskFreePct 12 -WarnUptimeDays 14 -CritUptimeDays 30
 
 The script will immediately output the system health information to the console.
 
