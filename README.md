@@ -31,8 +31,6 @@ MIT
 ---
 
 ## ✅ Abschnitt: *Running the tools*
-
-```md
 ## Running the tools
 
 All tools are executed using relative paths to ensure portability.
