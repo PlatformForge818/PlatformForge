@@ -6,7 +6,7 @@ This site contains documentation for Windows platform tools focused on
 health checks, automation, and system fundamentals.
 
 ## Tools
-- [Win-HealthCheck](docs/docs/tools/win-healthcheck/index.md)
+- [Win-HealthCheck](docs/tools/win-healthcheck/index.md)
 
 ## Project
 - [Overview](overview.md)
