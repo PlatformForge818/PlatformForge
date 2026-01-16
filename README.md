@@ -1,6 +1,8 @@
 # PlatformForge
 This repository is a public lab for Windows platform engineering. It contains practical PowerShell-based tools, scripts, and documentation focused on system automation, health checks, and infrastructure workflows. All projects are designed for real-world usage with an emphasis on clarity, reliability, and maintainability.
 --- 
+[TOC]
+---
 # Windows Platform Lab
 
 Windows platform engineering tools built with PowerShell.
@@ -26,7 +28,9 @@ All tools are designed to be simple, readable, and automation-friendly.
 - User and permission audit tools
 
 ## License
-[License](./license/)
+Short version (informal but accurate):
+You may use, copy, modify, publish, distribute, sell, or sublicense the software for free. The copyright and permission notice must remain in all copies. The software is provided without any warranty, and the authors are not liable for any damages or claims arising from its use.
+
 
 ---
 
