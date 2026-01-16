@@ -26,8 +26,7 @@ All tools are designed to be simple, readable, and automation-friendly.
 - User and permission audit tools
 
 ## License
-MIT
-./license
+[License](./license/)
 
 ---
 
